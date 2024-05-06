@@ -30,9 +30,9 @@ namespace Exercicio {
                     Console.WriteLine();
 
                     Console.Write("Massa: ");
-                    double massa = double.Parse(Console.ReadLine());
+                    double massa = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                     Console.Write("Altura: ");
-                    double altura = double.Parse(Console.ReadLine());
+                    double altura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
                     Console.WriteLine("\n------------------------\n");
 
@@ -72,9 +72,9 @@ namespace Exercicio {
                     Console.WriteLine();
 
                     Console.Write("Circunferencia: ");
-                    double circunferencia = double.Parse(Console.ReadLine());
+                    double circunferencia = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                     Console.Write("Altura: ");
-                    double altura = double.Parse(Console.ReadLine());
+                    double altura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
                     Console.WriteLine("\n------------------------\n");
 
